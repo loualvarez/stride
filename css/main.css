@@ -1,0 +1,404 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html, body, p, .jumbotron p {
+  color: #776E7E;
+  font-family: 'Open Sans', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+h1, .jumbotron h1 {
+  color: #250046;
+  font-family: 'museo_sans700';
+  font-size: 25px;
+}
+
+p {
+  line-height: 26px;
+}
+
+small {
+  color: #250046;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-size: 11px;
+}
+
+footer {
+  padding-top: 15px;
+}
+
+footer, footer p {
+  color: #fff !important;
+  font-size: 14px !important;
+}
+
+footer p {
+  float: left;
+  margin-right: 80px !important;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 30px;
+}
+
+.logo-header {
+  background: #fff;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 10px 16px;
+  box-shadow: 0 9px 20px 0 #EAF0FC;
+}
+
+.navbar-toggle .icon-bar {
+  background: #fff;
+}
+
+.navbar-toggle {
+  border: 1px solid #250046;
+  background: #250046;
+  padding: 11px 10px;
+  margin-top: 11px;
+  margin-right: 29px;
+}
+
+.navbar-nav>li>a,
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:link,
+.navbar-nav>li>a:visited {
+  color: #776E7E;
+  background: transparent;
+  margin-left: 20px;
+}
+
+.navbar-nav>li>a:hover {
+  color: #250046;
+}
+
+.navbar {
+  background: #F8F9FB;
+  font-family: 'museo_sans700';
+  font-size: 16px;
+  border: none;
+  padding: 55px 0 40px 0;
+  margin: 0;
+}
+
+.navbar-brand {
+  float: left;
+  height: auto;
+  padding: 0;
+  line-height: 0;
+  text-shadow: none;
+}
+
+.navbar-brand p {
+  font-family: 'museo_sans700';
+  font-size: 20px;
+  float: right;
+  color: #250046;
+  letter-spacing: 0;
+  margin: 18px 0 0 15px;
+}
+
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand {
+  margin-left: 15px;
+}
+
+.btn {
+  padding: 15px 30px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-image: none;
+  background: #2EDE9D;
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.jumbotron {
+  margin: 0;
+  background: #F8F9FB;
+}
+
+.jumbotron>hr {
+  border-top-color: rgba(255, 255, 255, 0.2);
+}
+
+#jumbo-header {
+  height: 680px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+}
+
+#jumbo-header svg, #pricing-items svg {
+  height: 15px;
+  display: block;
+  float: left;
+  margin: 3px 5px 0 0;
+}
+
+
+#jumbo-bottom {
+  -webkit-clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
+  /* Rectangle 3: */
+  background-image: linear-gradient(-180deg, #4F19A4 0%, #8E17D4 100%);
+}
+
+#header-content {
+  margin-top: 180px;
+}
+
+#header-content p {
+  padding: 15px 0 30px 0;
+}
+
+#features {
+  padding: 30px 0 50px 0;
+}
+
+#features .row {
+  padding: 80px 0 80px 0;
+}
+
+#features p {
+  margin-top: 25px;
+}
+
+#features small {
+  color: #2EDE9D;
+}
+
+#features h1 {
+  margin: 8px 0 0 0;
+}
+
+#pricing,
+#pricing p,
+#pricing h1,
+#pricing small {
+  color: #fff;
+}
+
+#pricing {
+  padding-top: 100px;
+  text-align: center;
+}
+
+#pricing ul {
+  list-style: none;
+  padding: 45px 0 45px 0;
+  margin: 0;
+}
+
+#pricing ul li {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#pricing #pricing-items {
+  margin: 100px 0 100px 0;
+}
+
+#pricing #pricing-items #pricing-item #currency-symbol {
+  font-size: 20px;
+  font-weight: 300;
+  margin-right: 5px;
+}
+
+#pricing #pricing-items #pricing-item h1 {
+  font-size: 50px;
+  float
+}
+
+
+.margin-bottom small {
+  display: block;
+  margin-bottom: 50px;
+}
+
+#pricing #pricing-items #pricing-item {
+  padding: 20px 0 50px 0;
+  border-right: solid rgba(255, 255, 255, 0.2) 1px;
+}
+
+#pricing #pricing-items #pricing-item:last-child {
+  border-right: 0;
+}
+
+#pricing-items ul svg {
+  float: none;
+  display: -webkit-inline-box;
+  height: 8px;
+}
+
+/* ==========================================================================
+   responsive
+   ========================================================================== */
+
+   /* Large Devices, Wide Screens */
+   @media only screen and (max-width : 1200px) {
+
+   }
+
+   /* Medium Devices, Desktops */
+   @media only screen and (max-width : 992px) {
+
+   }
+
+   /* Small Devices, Tablets */
+   @media only screen and (max-width : 768px) {
+
+     #pricing #pricing-items #pricing-item {
+       padding: 20px 0 50px 0;
+       border-right: none;
+       border-bottom: solid rgba(255, 255, 255, 0.2) 1px;
+     }
+
+     #pricing #pricing-items #pricing-item:last-child {
+       border-right: 0;
+       border-bottom: 0;
+     }
+
+     #features {
+      padding: 30px 45px 50px 45px;
+     }     
+
+   }
+
+   /* Extra Small Devices, Phones */
+   @media only screen and (max-width : 480px) {
+
+     .navbar-collapse ul {
+       float: left !important;
+       width: 100%;
+     }
+
+     .navbar-collapse {
+       background: #EDEFF4;
+       margin-top: 30px;
+     }
+
+     .navbar-collapse ul {
+       margin: 0;
+     }
+
+     .navbar-collapse ul li {
+       margin: 0;
+       padding: 10px 0 10px 0 !important;
+       border-bottom: 1px solid rgba(0, 0, 0, 0.1); !important;
+     }
+
+     .navbar-collapse ul li:last-child {
+       border-bottom: 0 !important;
+     }
+
+     .navbar-collapse ul li a {
+       margin-left: 0 !important;
+     }
+
+     #pricing #pricing-items #pricing-item {
+       padding: 20px 0 50px 0;
+       border-right: none;
+       border-bottom: solid rgba(255, 255, 255, 0.2) 1px;
+     }
+
+     #pricing #pricing-items #pricing-item:last-child {
+       border-right: 0;
+       border-bottom: 0;
+     }
+
+     #features {
+      padding: 30px 45px 50px 45px;
+     }
+
+     #pricing-items {
+       margin: 100px 0 0 0 !important;
+     }
+
+     #pricing #pricing-items #pricing-item {
+         padding: 50px 0 50px 0;
+     }
+
+     #pricing #pricing-items #pricing-item:first-child {
+         padding-top: 0px;
+     }
+
+     #jumbo-bottom {
+         -webkit-clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 100%);
+         clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 100%);
+         background-image: linear-gradient(-180deg, #4F19A4 0%, #8E17D4 100%);
+     }
+
+     #jumbo-header {
+         height: 680px;
+         -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+         clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+     }
+
+     footer p {
+       display: none;
+     }
+
+     footer ul li {
+       margin-left: 15px;
+     }
+
+   }
+
+   /* Custom, iPhone Retina */
+   @media only screen and (max-width : 320px) {
+
+   }
+
+
+/* ==========================================================================
+   Custom fonts
+   ========================================================================== */
+
+
+   @font-face {
+       font-family: 'museo_sans700';
+       src: url('../fonts/museosans_700-webfont.woff2') format('woff2'),
+            url('../fonts/museosans_700-webfont.woff') format('woff');
+       font-weight: normal;
+       font-style: normal;
+
+   }
+
+
+
+
+   @font-face {
+       font-family: 'museo_sans900';
+       src: url('../fonts/museosans_900-webfont.woff2') format('woff2'),
+            url('../fonts/museosans_900-webfont.woff') format('woff');
+       font-weight: normal;
+       font-style: normal;
+
+   }
