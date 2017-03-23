@@ -140,6 +140,11 @@ footer ul li {
   box-shadow: none;
 }
 
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #29C98E !important;
+}
+
 .jumbotron {
   margin: 0;
   background: #F8F9FB;
