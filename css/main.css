@@ -310,7 +310,7 @@ footer ul li {
 
      .navbar-collapse ul li {
        margin: 0;
-       padding: 10px 0 10px 0 !important;
+       padding: 10px 0 10px 15px !important;
        border-bottom: 1px solid rgba(0, 0, 0, 0.1); !important;
      }
 
@@ -320,6 +320,10 @@ footer ul li {
 
      .navbar-collapse ul li a {
        margin-left: 0 !important;
+     }
+
+     .navbar>.container .navbar-brand {
+       margin-left: 45px !important;
      }
 
      #pricing #pricing-items #pricing-item {
