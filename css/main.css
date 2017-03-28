@@ -59,6 +59,75 @@ footer ul li {
   margin-left: 30px;
 }
 
+.center-vertically {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.illustration-1 {
+  height: 302px;
+}
+
+.illustration-1 {
+  padding-top: 300px;
+}
+
+.illustration-2 {
+  height: 345px;
+}
+
+.illustration-2 small {
+  padding-top: 300px;
+}
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  z-index: 10;
+  border-radius: 1090px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(37, 0, 70, 1) url(../img/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .8;
+}
+.no-touch .cd-top:hover {
+  background-color: #2EDE9D;
+  opacity: 1;
+}
+
+.cd-top {
+  height: 60px;
+  width: 60px;
+  right: 30px;
+  bottom: 30px;
+}
+
 .logo-header {
   background: #fff;
   border-radius: 15px;
@@ -176,7 +245,7 @@ footer ul li {
 }
 
 #header-content {
-  margin-top: 180px;
+  margin-top: 160px;
 }
 
 #header-content p {
@@ -201,6 +270,19 @@ footer ul li {
 
 #features h1 {
   margin: 8px 0 0 0;
+}
+
+#features .row {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#features .row:first-child {
+  margin-top: 0;
+}
+
+#features .row:last-child #content-text {
+  margin-top: 50px !important;
 }
 
 #pricing,
@@ -262,6 +344,10 @@ footer ul li {
   height: 8px;
 }
 
+#content-text {
+  margin-top: 100px;
+}
+
 /* ==========================================================================
    responsive
    ========================================================================== */
@@ -278,6 +364,11 @@ footer ul li {
 
    /* Small Devices, Tablets */
    @media only screen and (max-width : 768px) {
+
+     .cd-top {
+       right: 20px;
+       bottom: 20px;
+     }
 
      #pricing #pricing-items #pricing-item {
        padding: 20px 0 50px 0;
@@ -369,6 +460,19 @@ footer ul li {
          -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
          clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
      }
+
+     #features img {
+       margin: 50px auto;
+     }
+
+     #features .col-md-7 {
+       width: 100%;
+     }
+
+     #features .row:last-child, #features .row:last-child img {
+       margin-bottom: 0px;
+     }
+
 
      footer p {
        display: none;
