@@ -59,6 +59,11 @@ footer ul li {
   margin-left: 30px;
 }
 
+.report-card img {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+  margin-top: 75px !important;
+}
+
 .center-vertically {
   position: relative;
   top: 50%;
@@ -245,7 +250,7 @@ footer ul li {
 }
 
 #header-content {
-  margin-top: 160px;
+  margin-top: 120px;
 }
 
 #header-content p {
@@ -354,6 +359,10 @@ footer ul li {
 
    /* Large Devices, Wide Screens */
    @media only screen and (max-width : 1200px) {
+
+     .report-card img {
+       margin-top: 75px !important;
+     }
 
    }
 
@@ -473,6 +482,13 @@ footer ul li {
        margin-bottom: 0px;
      }
 
+     #header-content {
+       margin-top: 100px;
+     }
+
+     .report-card img {
+       margin-top: 24px !important;
+     }
 
      footer p {
        display: none;
