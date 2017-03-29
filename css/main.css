@@ -18,7 +18,7 @@ html, body, p, .jumbotron p {
 h1, .jumbotron h1 {
   color: #250046;
   font-family: 'museo_sans700';
-  font-size: 25px;
+  font-size: 30px;
 }
 
 p {
@@ -135,10 +135,15 @@ footer ul li {
 
 .logo-header {
   background: #fff;
-  border-radius: 15px;
+  border-radius: 10px;
   display: inline-block;
-  padding: 10px 16px;
+  padding: 19px 16px;
   box-shadow: 0 9px 20px 0 #EAF0FC;
+}
+
+.signin-link {
+  color: #2EDE9D !important;
+  margin-left: 50px !important;
 }
 
 .navbar-toggle .icon-bar {
@@ -239,6 +244,12 @@ footer ul li {
   display: block;
   float: left;
   margin: 3px 5px 0 0;
+}
+
+#pricing-items #lowercase {
+  text-transform: none;
+  letter-spacing: .5px;
+  font-size: 12px;
 }
 
 
