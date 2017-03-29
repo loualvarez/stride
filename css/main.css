@@ -339,6 +339,15 @@ footer ul li {
   float
 }
 
+#pricing #pricing-items #pricing-item:last-child ul {
+  padding: 0px 0 50px 0;
+}
+
+#pricing #pricing-items #pricing-item:last-child h1,
+#pricing #pricing-items #pricing-item:last-child #lowercase {
+  opacity: 0;
+}
+
 
 .margin-bottom small {
   display: block;
